@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Cruz_.ico" type="image/x-icon">
+    <title>Seletores Personalizados</title>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, #62d86ed0, #36E047);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+           color: #1D7A27;
+        }
+
+        h1#principal{
+            color: white;
+            text-align: center;
+            background-color: #0E3B13;
+        }
+
+        h2{
+            color: #2DBA3B;
+        }
+
+        .basico{
+            color: yellow;
+        }
+        .intermediario{
+            color: blue;
+        }
+
+        .avancado{
+            color: white;
+        }
+
+        .destaque{
+            background-color: yellowgreen;
+        }
+
+        p{
+            text-indent: 30px;
+            text-align: justify;
+        }
+        /*
+        em HTML é id = em CSS é # (id só pode um elemento)
+        em HTML é class = em CSS é . (no class pode ter vários elementos no mesmo documento)
+*/
+    </style>
+    
+
+</head>
+<body>
+    <h1 id="principal" class="destaque">Criando Sites com HTML e CSS</h1>
+    <h1>Aprendendo HTML</h1>
+    <h2 class="basico">HTML básico</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis possimus, fuga quod voluptatem nostrum aliquid sed maxime eligendi, vero dolorum minus? Enim, tempore omnis suscipit reprehenderit modi vitae eos quasi?</p>
+    <h2 class="intermediario">HTML intermediário</h2>
+    <p>Lorem ipsum dolor sit amet <span class="basico">consectetur</span> adipisicing elit. Incidunt totam ratione fugiat? Ex sit, repellendus cupiditate deserunt earum corporis, impedit eos consequuntur nisi tenetur veritatis aut, porro quas dolor nulla.</p>
+    <h2 class="avancado">HTML avançado</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quis tempora ipsum assumenda tenetur veniam quidem in cumque quod earum rerum hic, rem consequuntur unde architecto iste quasi odio dolorum.</p>
+    <h1 class="destaque">Aprendendo CSS</h1>
+    <h2 class="basico" >CSS básico</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit magni aut libero amet non! Deserunt quam qui quidem totam. Aperiam molestiae exercitationem nemo saepe possimus. Exercitationem eos delectus nemo praesentium?</p>
+    <H2 class="intermediario">CSS intermediário</H2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam ipsa, itaque hic, dolore quibusdam, voluptas officiis repellat esse dolorum deserunt fugiat vitae nam omnis neque excepturi alias dolorem totam molestiae.</p>
+    <h2 class="avancado destaque">CSS avançado</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore voluptatem quo, explicabo nesciunt vero consequuntur dolorum provident accusantium. Ex reiciendis esse minima quidem, ipsa praesentium exercitationem doloremque vitae sunt quam.</p>
+    
+</body>
+</html>

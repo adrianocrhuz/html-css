@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(143, 163, 202);
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            background-color: grey;
+            padding: 3px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 30px; /* separa os links*/
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        header{
+            padding: 10px;
+            background-color: white;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: thistle;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(146, 143, 143);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--cabeçalho-->
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>   
+    </header>
+    <main> <!--conteúdo principal-->
+        <section id="assunto"> <!--sessão-->
+            <p>Esportes Política Tecnologia</p>
+
+        </section>
+        <section id="noticias"> <!--sessão-->
+            <article> <!--artigo-->
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quos modi. Officiis corrupti labore ab. Id, mollitia quibusdam! Exercitationem facilis asperiores accusamus? Corrupti rerum modi placeat, inventore assumenda aut facilis.</p>
+                <aside> <!--conteúdo períferico-->
+                    <p>Artigo escrito por José da Silva</p>
+
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer> <!--rodapé-->
+        <p>Desenvolvido por <abbr title="Imponente. Aquele que sabe o que quer. Poderoso e temido pelos adversários.">Pietro Cruz</abbr></p>
+
+    </footer>
+
+</body>
+</html>

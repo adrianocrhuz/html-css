@@ -1,0 +1,25 @@
+@charset "UTF-8"
+
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #49FC5B, #46f0e2);
+}
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+main{
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #49FC5B ;
+}

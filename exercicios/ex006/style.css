@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #6C6AA6, #7A77D9);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #080A40;
+    text-align: center;
+    text-shadow: 1px 1px 2px #1c1f64dc;
+}
+main{
+    background-color: white;
+    width: 700px; 
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #6C6AA6;
+}
+.destaque{
+    color: #034959;
+    background-color: #5a5c775b;
+    
+}
+h3:hover {
+    background-color: #F2E307;
+}
+div:hover > p{
+    display: block;
+    background-color: #080A40;
+ }
+
+p{
+    text-indent: 30px;
+    text-align: center;
+    text-align: justify;
+}

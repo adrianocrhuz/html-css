@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Cruz_.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family:'idroid';
+            src: url('fontes/idroid.otf'); format('opentype');
+            font-weight: 16px;
+            font-style: normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family:'idroid', 'Times New Roman', Times, serif;
+            color: #9ACFDD;
+            
+        }
+
+        .destaque{
+            background-color:#D90B1C ;
+            padding: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+
+        #principal{
+            background-color: #202731;
+            padding: 10px;
+            border: #D90B1C;
+            height: 50px;
+            box-shadow: 5px 5px 5px #9ACFDD ;
+            text-align: center;
+
+        }
+        body{
+            background-image: linear-gradient(to left, #435877, #FAF566);
+        }
+
+        p{
+            text-align: justify;
+            text-indent: 30px;
+        }
+
+        div{
+            background-color: #FAF566;
+            text-align: center;
+            height: 400px;
+            padding: 10px;
+            border-radius: 2px solid black ;
+        }
+        div:hover{
+            background-color: #D90B1C;
+        }
+
+    </style>
+
+        <title>Parágrafos</title>
+</head>
+<body>
+    <h1 id="principal">Parágrafos e quebras de linhas</h1>
+        <hr>
+        <p>Você pode escrever um parágrafo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;</p><!--LESS THAN / GREATER THAN-->
+    <p>Se precisar quebrar o texto em algum lugar específico com <br> esse, você pode usa a tag &lt;br&gt;</p>
+    <p>Vamos adicionar alguns símbolos especiais:</p>
+    &reg;
+    &copy;
+    &trade;
+    &euro;
+    &pound;
+    &yen;
+    &cent;
+    &Delta;
+    &uarr;
+    <p>Vamos adicionar alguns emoji:
+      &#x1f596;
+      &#x1f913;  
+    </p>
+    <h1 class="destaque">Imagens de Tamanhos Diferentes</h1>
+    <h2>Usando a tag Picture</h2>
+    <div>
+    <picture>
+    <source media="(max-width:1000px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">
+    <img src="imagens/irina-blok.jpg" alt="Foto irina-blok">
+    </picture>
+    </div>
+    <h1 class="destaque">Formatos de Imagens</h1>
+    <h2>A tag IMG</h2>
+    <img  src="imagens/bugdroid.png" alt="Robo">
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkes</title>
+    <style>
+        @font-face {
+            font-family:'Frightmare';
+            src: url('fontes/Frightmare.otf') format('opentype'); url('fontes/Frightmare.ttf') format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        h1{
+            font-family: 'Frightmare', Arial, Helvetica, sans-serif;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{ /* Mudando a cor do link*/
+            color:#43E813;
+            text-decoration: none;/* none=Retirar o sublinhado*/
+            font-weight: bold;/* bold=deixar o link em negrito*/
+        }
+        a:visited{/*Pseudoclasse/visitado*/
+            color:#5f5f5f ;
+        }
+        a:hover {/*Pseudoclasse/houver*/
+            text-decoration: underline; /* Pseudoclasse/underline=sublinhado*/
+            color: black; /* quando passar o mouse por cima deixar a cor preta*/
+        }
+        a:active {/*Pseudoclasse/active=preencher com a cor ao passar o mouse no link ativo*/
+            color: #D4FF24;
+        }
+        a::after{/*Pseudoelemento/after=depois*/
+            content: '[link]';  /*content=conteúdo*/
+            text-decoration: none;
+            font-weight: normal;
+            color: cornflowerblue;
+       }
+       .especial{
+           background-color:#5EDEFF ;
+           
+       }
+       .especial::before {/*antes*/
+           content: '➟';
+       }
+       .especial::after {/*depois*/
+           content: '➠';
+       }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io/" target="_blank">Repositório</a></li>
+        <li><a href="https://www.youtube.com/cursoemvideo" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do Cursoemvideo</a></li>
+        <li><a href="https://erikasarti.com/html/dingbats-simbolos-desenhos/" target="_blank" class="especial">Símbolos e Desenhos</a></li>
+        <li><a href="https://color.adobe.com/pt/create/color-wheel" target="_blank" class="especial">Site Color Adobe</a></li>
+        <li><a href="https://www.dafont.com/pt/" target="_blank">Site Dafont</a></li>
+        <li><a href="https://www.whatfontis.com/" target="_blank">Site Whatfontis</a></li>
+        <li><a href="https://www.fontsquirrel.com/" target="_blank">Site fontsquirrel/</a></li>
+        <li><a href="https://www.myfonts.com/" target="_blank">Site myfonts</a></li>
+    </ul>
+</body>
+</html>

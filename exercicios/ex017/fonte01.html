@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Cruz_.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm (centimetro), mm (milimitro), in (polegada), px (pexil), pt (ponto), pc (paica)
+
+
+            Medidas Relativas
+            em (altura em), ex( altura x), rem(), vw(largura da viuport), vh (altura da viuport),% (porcentam)
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+        }
+
+        h1, h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit id dicta ea et molestiae atque minus doloremque consequuntur? Nesciunt numquam autem dolor exercitationem deserunt, dolorem aspernatur unde natus at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro nobis, fugit quibusdam deserunt facere corporis perferendis similique est sit non odio cupiditate voluptas consectetur. Eius unde nesciunt nobis vel! Fugiat?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum necessitatibus, cum doloribus quod deserunt expedita? Obcaecati accusamus non eveniet, rem, perferendis illo ut architecto ea similique itaque sed porro omnis?</p>
+    <h2>Substítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, nisi totam quam, ab eaque temporibus velit animi magnam quisquam vitae dolor, perferendis dicta. Ipsam sapiente minus hic quasi culpa magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque perferendis praesentium officiis. Eos voluptatem voluptas, dolorem numquam minus asperiores exercitationem ad corporis quidem laboriosam consectetur id ex fugit? Sint.</p>
+    <h2>Link para acessar o site de fontes</h2>
+    <p><a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp" target="_blank">CSS Web Safe Fonts</a></p>
+    <hr>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML</p>
+    <audio controls autoplay loop src="audio/endlesslove.mp3"></audio>
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" controls autoplay>
+        <source src="audio/endlesslove.mp3" type="audio/mpeg">
+        <source src="audio/endlesslove.mp4" type="audio/mpeg">
+        <source src="audio/endlesslove.ogg" type="audio/ogg">
+        <source src="audio/endlesslove.wav" type="audio/wav">
+        <p>Infelismente seu navegador não consegue reproduzir o áudio</p>
+        <a href="audio/endlesslove.mp3">Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+</main>
+
+</body>
+</html>
