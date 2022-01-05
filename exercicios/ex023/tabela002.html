@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             background-color: lightgray;
@@ -23,19 +24,20 @@
             background-color: #383838;
             color: white;
         }
+        thead > tr > th { /* sticky=colado ou grudado */
+            position: sticky;
+            top:-1px;
+            background-color:#383838 ;
+        }
         tbody > tr:nth-child(odd) { /* 2n-1 */
             background-color:white ;
         }
         tbody > tr:nth-child(even) { /* 2n */
-            background-color:lightgray ;
+            background-color:lightgray;
         }
         td, th {
             border: 1px solid black;
             padding: 10px;
-        }
-        thead {
-            background-color: gray;
-            color: white;
         }
         .num {
             text-align: right;
@@ -54,7 +56,7 @@
         <thead>
             <tr> <!--tr é linha-->
                 <th scope="col">Estado</th> <!--th cabeçalho ou título-->
-                <th scope="col">População</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -175,6 +177,9 @@
         </tfoot>
 
     </table>
-    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui porro suscipit impedit commodi ut? Totam eius cumque officiis suscipit odio illum laudantium delectus quisquam possimus aliquid cum dolorem eveniet maiores at voluptate, quia architecto ab doloremque similique et sed. Vel ratione velit eum, omnis obcaecati repudiandae vero quam quae consequuntur placeat! Quaerat rem ipsa repudiandae! Quas excepturi accusantium aut officiis impedit cupiditate dignissimos suscipit expedita eum. Incidunt aspernatur non illum recusandae porro vel quae blanditiis est, quidem, veniam quos voluptates doloribus modi nulla veritatis corrupti quia impedit cupiditate eius dolores odio laborum reiciendis pariatur repudiandae? Praesentium corporis commodi dicta facere?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi mollitia error neque eligendi, eos aut optio iste ratione, ipsam est eveniet quibusdam nesciunt ad culpa, sed ab officiis autem rerum ipsa asperiores! Ea excepturi magni mollitia aut labore sapiente deserunt nulla atque alias aspernatur sed incidunt omnis quos rem earum officiis odit voluptatem animi molestiae, voluptatibus vel soluta? Dolor autem deserunt iure laborum quaerat mollitia natus nulla aperiam. Consectetur architecto perspiciatis voluptatum ea veritatis, sit eaque, pariatur adipisci velit nesciunt ut ex assumenda quae repudiandae similique magni praesentium ab. Sed maiores aspernatur odit cumque illum tenetur totam ab hic distinctio?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consequuntur pariatur atque labore totam ea unde harum, enim blanditiis doloremque non voluptatibus quo aut? Neque quaerat magnam aperiam vero? Asperiores quaerat rem eveniet id cum quos error maxime ipsum. Accusamus sunt alias eaque ducimus vitae perferendis iusto debitis! Eum consequuntur provident laudantium accusamus vitae, quae aut eos voluptate officia rem nemo error molestias. Aspernatur, enim. Dolorem eveniet sit molestias voluptates magnam deserunt et alias excepturi, asperiores eligendi. Totam quidem iusto iste esse nesciunt cumque rem ducimus reprehenderit. Aut iste aspernatur perspiciatis pariatur incidunt. Optio dolorem mollitia est. Saepe, aut sed?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aut dolores ea. Repellat dolor aspernatur temporibus rem accusamus doloribus exercitationem quia fugit vitae nihil labore voluptatem consequatur porro, sapiente beatae a unde. Laudantium, consequatur itaque eveniet ducimus reprehenderit aliquam magnam veniam corrupti velit natus quo dolorem, dolore voluptatibus architecto recusandae tempore pariatur. Praesentium repellendus quisquam ea voluptatem numquam molestias ipsa illum repellat quis quidem, deserunt, expedita consectetur laboriosam pariatur, labore adipisci in distinctio hic tenetur esse voluptatibus alias quibusdam nesciunt recusandae. Sequi provident eos ad cupiditate, magni omnis dolores blanditiis dolorum quas repudiandae fugiat, iusto cumque error earum quam tempora.</p>
 </body>
 </html>
